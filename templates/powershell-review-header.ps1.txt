@@ -1,0 +1,31 @@
+## Purpose: <What this code does and the operational problem it addresses.>
+## Business context: <Project/change reference and intended outcome.>
+## Original: <Verified original author.>
+## Edited: <Actual date/time and editor; preserve prior attribution.>
+## Version / release notes: <Candidate version and change record.>
+## Affected products, services, users, and support teams: <Describe impact.>
+## Pillar routing: Infrastructure / Development / Business ERPs /
+## End Point Engineering / CyberSecurity. <Record required or pending routes.>
+## Additional routing: <Product, identity, data, user-support owners as needed.>
+## Execution context: <OS/runtime, account/session, privileges, dependencies.>
+## Inputs / outputs: <Parameters, defaults, results, errors, exit codes.>
+## Operational impact: <Processes/files/credentials/services/API writes.>
+## Validation: <Actual tests/evidence and anything not yet tested.>
+## Known limits / recovery: <Failure cases and recovery/rollback limits.>
+## Review record: <PR/routing record; final decisions are recorded there.>
+## Status: PENDING REQUIRED REVIEWS — NOT APPROVED FOR PRODUCTION.
+## Template only: replace placeholders and retain accurate comment-based
+## help. Place a PowerShell parameter block before executable statements.
+
+<#
+.SYNOPSIS
+    <Brief purpose.>
+.DESCRIPTION
+    <What the code does, why it is needed, context and operational effects.>
+    <Document actual parameters and exit behavior when implemented.>
+#>
+
+## Section: <Name of major section.>
+## What: <Functions and actions performed here.>
+## Why: <Reason, prerequisites, dependency, or problem addressed.>
+## Impact / verification: <Consequences, result checks, error handling, limits.>
