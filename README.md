@@ -12,11 +12,11 @@ Review governance ensures every involved party can review code affecting its sup
 | --- | --- | --- |
 | Windows Code | Windows scripts and endpoint remediation | [windows-code/](./windows-code/) in this repository |
 | Adobe Creative Cloud Code | Subset of Windows Code: remediation for Adobe Creative Cloud issues associated with the SailPoint implementation | [windows-code/adobe-creative-cloud/](./windows-code/adobe-creative-cloud/) |
-| Jamf | Jamf and Apple endpoint code | Separate repository planned; URL to be supplied |
+| Jamf | Jamf and Apple endpoint infrastructure as code | [jamf-blueprints-iac](https://github.com/mcccd-IT-Operations/jamf-blueprints-iac) — private; [initial Python review](https://github.com/mcccd-IT-Operations/jamf-blueprints-iac/pull/1), full Zsh workflow planned |
 | Python | Python scripts and utilities | Separate repository planned; URL to be supplied |
 | API | API integrations and automation | Separate repository planned; URL to be supplied |
 
-Windows Code and Adobe Creative Cloud are code categories represented by folders. Individual changes use review branches and pull requests. The candidate is on `review/windows/adobe-creative-cloud-v2`, targeting `main` in [draft PR #1](https://github.com/mcccd-IT-Operations/.github/pull/1). Pillars are governance responsibilities, not mandatory Git branches. The separate Jamf, Python, and API repository URLs remain to be supplied.
+Windows Code and Adobe Creative Cloud are code categories represented by folders. Individual changes use review branches and pull requests. The candidate is on `review/windows/adobe-creative-cloud-v2`, targeting `main` in [draft PR #1](https://github.com/mcccd-IT-Operations/.github/pull/1). Pillars are governance responsibilities, not mandatory Git branches. Jamf now has its own private repository; the separate Python and API repository URLs remain to be supplied.
 
 ## Adobe Creative Cloud versions
 
