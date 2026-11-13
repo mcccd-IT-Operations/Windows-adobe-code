@@ -1,90 +1,37 @@
-## Change and code area
+## Purpose, behavior and impact
 
-Problem addressed:
+Explain the problem, before/after behavior, affected users/products/support structures and why each changed section exists.
 
-Area: Windows / Adobe Creative Cloud / Jamf / Python / API / other:
+## Central governance and project records
 
-Baseline version:
+Follow [District ITS governance](https://github.com/mcccd-IT-Operations/.github/blob/main/GOVERNANCE.md), [routing](https://github.com/mcccd-IT-Operations/.github/blob/main/docs/review-routing.md) and [code-note standards](https://github.com/mcccd-IT-Operations/.github/blob/main/docs/code-documentation.md).
+Framework: ITS-REVIEW-1 (proposal; formal adoption and enforcement pending).
+Project governance/adoption record:
+Project routing/approval record:
+Final candidate commit:
+Author / change owner:
 
-Candidate version:
+## Validation and recovery
 
-Release notes:
+Checks performed and results:
+Authorized nonproduction/pilot evidence:
+Checks not performed / known limitations:
+Recovery, monitoring and support references:
+Secrets/privacy review; restricted evidence references only in public discussions:
 
-## Purpose, code notes, and impact routing
+## Required routing and decisions
 
-Business purpose, affected support structures, services, products, users, and dependencies:
+| Pillar | Representative | Required / acknowledged Not applicable and reason | Decision / evidence / commit / date |
+| --- | --- | --- | --- |
+| Infrastructure | Unassigned | Pending assessment | Pending |
+| Development | Unassigned | Pending assessment | Pending |
+| Business ERPs | Unassigned | Pending assessment | Pending |
+| End Point Engineering | Unassigned | Pending assessment | Pending |
+| CyberSecurity | Unassigned | Required for production-bound code | Pending |
 
-Opening code notes and continued section/function-comment references:
+Additional affected owners, required/advisory disposition and evidence:
+Technical peer other than author:
+Final CyberSecurity approver distinct from author and peer, after required reviews:
+Maintainer verification and separate production authorization:
 
-Assess ALL five pillars. Record a representative, impact, Required or acknowledged Not applicable with reason, decision, review/acknowledgement link, reviewed commit, and date. Unanswered or disputed assessments stay pending. Use the repository's governance policy and routing-record template where available.
-
-| Pillar | Representative | Impact / reason | Required / acknowledged Not applicable | Decision / evidence / commit / date |
-| --- | --- | --- | --- | --- |
-| Infrastructure | Unassigned | Pending assessment | Pending | Pending |
-| Development | Unassigned | Pending assessment | Pending | Pending |
-| Business ERPs | Unassigned | Pending assessment | Pending | Pending |
-| End Point Engineering | Unassigned | Pending assessment | Pending | Pending |
-| CyberSecurity | Unassigned | Final approval required for production-bound code | Required | Pending |
-
-Additional routing (identity, product, support, business/data owners, or others): representative, reason, advisory/required status, and disposition:
-
-Who acknowledged routing completeness, evidence link, and date:
-
-Missing approvals/findings, owner, next action, follow-up date, and project/schedule impact:
-
-## Candidate commit and validation
-
-Final reviewed commit SHA (update after the last code change):
-
-Nonproduction environment, test cases, actual results, and approved evidence references:
-
-Tests not performed / remaining limitations:
-
-Execution account, required privileges, and deployment scope:
-
-Expected impact and recovery plan:
-
-## District ITS peer review
-
-Assigned reviewer handle (distinct from author and Cyber Security reviewer):
-
-Formal approving review link, reviewed commit SHA, and date (leave pending until granted):
-
-## Cyber Security review
-
-Assigned reviewer handle:
-
-Final formal approving review link, reviewed commit SHA, and date (after technical peer and other required reviews; leave pending until granted):
-
-Restricted findings / evidence reference (no restricted content in this public PR):
-
-## Maintainer verification
-
-- [ ] Release notes cover the changes from the baseline.
-- [ ] Opening notes explain purpose/context/impact, and section comments explain functions and reasons accurately.
-- [ ] All five pillars acknowledged impact dispositions; every Not applicable decision has a reason and representative acknowledgement.
-- [ ] Additional required routing is identified, assigned, and resolved; scope changes triggered reassessment.
-- [ ] Every required pillar and additional required party approved the final candidate.
-- [ ] Relevant nonproduction tests are complete and evidence is recorded.
-- [ ] Requested changes and review conversations are resolved.
-- [ ] An authorized peer approved the final code commit.
-- [ ] A separate authorized CyberSecurity reviewer gave final approval on that same commit after technical peer and other required reviews.
-- [ ] The author is neither approving reviewer; the two approving reviewers are distinct.
-- [ ] New code changes have been re-reviewed; approvals are current.
-- [ ] Required checks pass and the approval record references actual reviews.
-
-These checkboxes record verification only. They do not grant approval or enforce a merge gate.
-
-Any required pillar's missing approval, requested change, or unresolved route keeps approval pending and can delay the project. Escalation and elapsed dates do not grant approval. New changes require renewed required approvals; record final evidence in the PR/change system if committing a record would change the candidate.
-
-## Release and production status
-
-Default status: **PENDING APPROVAL — NOT APPROVED FOR PRODUCTION**.
-
-Candidate/pre-release or approved release:
-
-Release/tag and artifact references:
-
-Deployment owner, applicable change authorization, and recovery reference:
-
-Do not publish a production-approved release or deploy until role-specific approvals and production authorization are recorded. For the Adobe Version 2 candidate, retain downloadable Version 1 and Version 2 assets and mark any review release as a pre-release.
+Missing approvals or unresolved routes can delay the project. Record blocker, owner, next action, follow-up and schedule impact. Silence is not approval. New changes require reassessment and final-commit approvals. Checklists/templates do not enforce GitHub merge rules.

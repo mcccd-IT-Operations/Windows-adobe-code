@@ -13,7 +13,7 @@ Version 2 edited 11/12/26 @ 7:02 PM by Alvin Bridges
 | Baseline | [Adobe-reset-v1.ps1](./Adobe-reset-v1.ps1) |
 | Change record | [RELEASE-NOTES.md](./RELEASE-NOTES.md) |
 | Review branch | `review/windows/adobe-creative-cloud-v2` |
-| Pull request | [Draft PR #1](https://github.com/mcccd-IT-Operations/.github/pull/1) |
+| Pull request | [Draft PR #1](https://github.com/mcccd-IT-Operations/Windows-adobe-code/pull/1) |
 | Script code snapshot | `7ffd71b67ce0a7ebaa9d37b621d678e5b56d451f`; governance is being revised in the PR |
 | Final reviewed candidate SHA | Pending; reviewers must identify the final PR commit |
 | Nonproduction test evidence | Pending; no Windows execution performed during preparation |
@@ -42,9 +42,9 @@ Version 2 edited 11/12/26 @ 7:02 PM by Alvin Bridges
 
 Not applicable requires a reason and the relevant representative's acknowledgement. No response remains pending. Reviewers can add routes; all required routes must be resolved.
 
-## Governance proposal routing
+## Central framework and project adoption
 
-The policy/template changes in this PR affect all five pillars. Infrastructure, Development, Business ERPs, End Point Engineering, and CyberSecurity are all required reviewers of that governance proposal; representatives and decisions are currently unassigned/pending. This is distinct from the Adobe code's initial impact assessment above.
+Organization policy and reusable templates now live in [the organization framework](https://github.com/mcccd-IT-Operations/.github/blob/main/README.md). Formal policy adoption is tracked there with all five pillars. This project retains its own impact decisions and evidence; see [template baseline](../../GOVERNANCE-ADOPTION.md). The restructure records no new approval.
 
 ## Blockers and project impact
 

@@ -1,39 +1,17 @@
 ---
-name: Code review routing
-about: Identify impacted pillars and additional reviewers before approval
-title: "Review routing: "
+name: Review routing
+about: Assess all five pillars and additional owners for a project/change
+title: "review: "
 ---
 
-## Change and purpose
+Follow [central governance](https://github.com/mcccd-IT-Operations/.github/blob/main/GOVERNANCE.md).
 
-PR / project / code / version / commit:
+Project / PR / candidate commit:
+Purpose, affected users/products/support:
+Opening notes / section comments:
+Technical peer:
+Project approval-record link:
 
-Affected products, services, users, and support structures:
+Assess Infrastructure, Development, Business ERPs, End Point Engineering and CyberSecurity. For each record representative, impact/reason, required or acknowledged Not applicable, decision, evidence, commit and date. Add all additional impacted owners.
 
-Author and accountable change owner:
-
-## Five-pillar assessment
-
-For every pillar, identify the representative, impact, Required or acknowledged Not applicable with reason, and assessment/review evidence. Unanswered assessments stay pending.
-
-| Pillar | Representative | Impact / reason | Routing status | Decision / evidence |
-| --- | --- | --- | --- | --- |
-| Infrastructure | Unassigned | Pending | Pending | Pending |
-| Development | Unassigned | Pending | Pending | Pending |
-| Business ERPs | Unassigned | Pending | Pending | Pending |
-| End Point Engineering | Unassigned | Pending | Pending | Pending |
-| CyberSecurity | Unassigned | Final review required for production-bound code | Required | Pending |
-
-## Additional routing
-
-Other affected owners/parties, why involved, advisory or required approval, assigned representative, decision, and evidence:
-
-## Code notes and evidence
-
-Opening notes, section comments, release notes, validation, recovery, and support handoff references:
-
-## Blockers, escalation, and project impact
-
-Missing approval or finding, accountable owner, next action, follow-up date, and schedule impact:
-
-This issue records routing. It does not grant approval. Link formal final-commit approvals in the PR/change record. Do not put restricted evidence in this public issue.
+Final CyberSecurity approval follows required reviews and is by a reviewer distinct from author and technical peer. Record missing approvals/findings, owner, action, follow-up and schedule impact. No response is not approval. Do not post credentials or restricted evidence here.
