@@ -1,4 +1,0 @@
-# Central PowerShell review-header template
-# The reusable source is now maintained at:
-# https://github.com/mcccd-IT-Operations/.github/blob/main/templates/powershell-review-header.ps1.txt
-# Preserve original attribution and use native comment-based help as appropriate.
