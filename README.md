@@ -12,7 +12,7 @@ Review governance ensures every involved party can review code affecting its sup
 | --- | --- | --- |
 | Windows Code | Windows scripts and endpoint remediation | [windows-code/](./windows-code/) in this repository |
 | Adobe Creative Cloud Code | Subset of Windows Code: remediation for Adobe Creative Cloud issues associated with the SailPoint implementation | [windows-code/adobe-creative-cloud/](./windows-code/adobe-creative-cloud/) |
-| Jamf | Jamf and Apple endpoint infrastructure as code | [jamf-blueprints-iac](https://github.com/mcccd-IT-Operations/jamf-blueprints-iac) — private; [initial Python review](https://github.com/mcccd-IT-Operations/jamf-blueprints-iac/pull/1), full Zsh workflow planned |
+| Jamf | Jamf and Apple endpoint infrastructure as code | [jamf-blueprints-iac](https://github.com/mcccd-IT-Operations/jamf-blueprints-iac) — private; [Python/Zsh draft review](https://github.com/mcccd-IT-Operations/jamf-blueprints-iac/pull/1), both implementations imported |
 | Python | Python scripts and utilities | Separate repository planned; URL to be supplied |
 | API | API integrations and automation | Separate repository planned; URL to be supplied |
 
