@@ -16,6 +16,6 @@ The governing review framework is maintained centrally in [District ITS governan
 | Identity/SailPoint and Adobe service/licensing owners | Unassigned | Pending assessment of rollout issue and intended remediation outcome | Pending |
 | Service Desk / affected user support | Unassigned | Pending assessment of interrupted apps, sign-in guidance, support handoff, communications | Pending |
 
-Keep actual decisions, final candidate commit, evidence and additional routes in [windows-code/adobe-creative-cloud/APPROVAL.md](./windows-code/adobe-creative-cloud/APPROVAL.md). Technical peer review is by someone other than the author; final CyberSecurity approval follows required reviews and is by a reviewer distinct from author and approving peer. New changes require renewed review. Record missing approvals/findings, owner, action, follow-up and schedule impact.
+Keep actual decisions, final candidate commit, evidence and additional routes in [docs/APPROVAL.md](./docs/APPROVAL.md). Technical peer review is by someone other than the author; final CyberSecurity approval follows required reviews and is by a reviewer distinct from author and approving peer. New changes require renewed review. Record missing approvals/findings, owner, action, follow-up and schedule impact.
 
 Production needs separate authorization for the approved artifact, scope, operator, timing, monitoring, support and recovery. Existing findings and validation limits remain in project documentation. Local templates do not configure reviewer assignments, branch rules or checks.

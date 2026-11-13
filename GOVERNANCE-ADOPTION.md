@@ -1,15 +1,16 @@
 # Governance template adoption
 
-Central framework: ITS-REVIEW-1 (proposal; formal policy adoption pending)  
-Central source baseline: [9997d62d9b12a2fa3fbbda5940571d6b4fd2aa64](https://github.com/mcccd-IT-Operations/.github/commit/9997d62d9b12a2fa3fbbda5940571d6b4fd2aa64)  
+Central framework: ITS-REVIEW-1  
+Central baseline commit: PENDING — set after .github PR merges  
+Central configuration review: [Part B1 draft PR](https://github.com/mcccd-IT-Operations/.github/pull/1)  
 Central policy: [GOVERNANCE.md](https://github.com/mcccd-IT-Operations/.github/blob/main/GOVERNANCE.md)  
 Project: Windows-adobe-code  
 Review branch: review/windows/adobe-creative-cloud-v2  
-Review: [Draft PR #1](https://github.com/mcccd-IT-Operations/Windows-adobe-code/pull/1)  
-Local routing/approval evidence: [windows-code/adobe-creative-cloud/APPROVAL.md](./windows-code/adobe-creative-cloud/APPROVAL.md)
+Local approval record: [docs/APPROVAL.md](./docs/APPROVAL.md)  
+Overrides: none
 
-Template distribution prepared at the user's direction. All existing code/policy approvals remain pending. Project extensions: preserve Version 1/Version 2 artifacts, authorship, release history and Identity/SailPoint/Adobe/support routing.
+Equivalent local CONTRIBUTING, PR and review-routing issue defaults are removed for inheritance. Project CODEOWNERS and reusable workflow callers are explicit configuration rather than policy overrides. Project-specific routing and findings remain local.
 
-Local PR/issue templates explicitly copy the central intake questions and use absolute policy links. Their local presence overrides GitHub defaults; future updates must be reconciled through [the adoption process](https://github.com/mcccd-IT-Operations/.github/blob/main/docs/template-adoption.md). This record pins the copied baseline while central links expose current guidance; compare later changes before claiming current adoption. No automatic synchronization or reviewer/rule enforcement is configured by these files.
+After the central configuration PR merges, record its merge commit and reconcile future changes through [template adoption](https://github.com/mcccd-IT-Operations/.github/blob/main/docs/template-adoption.md). Callers reference @main and depend on that merge. Owners complete teams/membership/access, labels, secret, rulesets and required-check registration. File distribution adds no approval.
 
-Preserve project findings, test limitations and required additional owners. New changes require routing reassessment and final-commit approvals. Template provisioning is not formal policy adoption, project approval or production authorization.
+Status: [central enforcement/approval status](https://github.com/mcccd-IT-Operations/.github/blob/main/GOVERNANCE.md#enforcement-and-related-records).

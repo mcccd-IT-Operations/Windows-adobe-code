@@ -1,11 +1,11 @@
-## Original: Jim Ierely
+## Original: Jim Ierley
 ## Edited 11/12/26 @ 7:02 PM by Alvin Bridges
 ## Version: 2 — review candidate.
 ## Status: Pending District ITS peer and Cyber Security approval.
 ## Not approved for production. Download availability does not grant approval.
 ## Comparison baseline: The earlier supplied .ps1 and .txt contain identical
 ## script content. CHANGED notes below explain differences between those
-## files and the newer script pasted into this conversation.
+## files and the revised script supplied by Alvin Bridges on 11/12/26.
 ## This final copy preserves the newer script's commands and behavior.
 
 ## CHANGED - Documentation and parameters:

@@ -1,13 +1,13 @@
 # Adobe local sign-in reset — release notes
 
-Original: Jim Ierely  
+Original: Jim Ierley  
 Version 2 edited 11/12/26 @ 7:02 PM by Alvin Bridges
 
 ## Version 2
 
-**Review candidate — pending District ITS peer review and Cyber Security approval. Not approved for production.** Any review release must be marked as a pre-release. Download availability does not grant production authorization. See [the approval record](./APPROVAL.md).
+**Review candidate — pending District ITS peer review and Cyber Security approval. Not approved for production.** Any review release must be marked as a pre-release. Download availability does not grant production authorization. See [the approval record](../../docs/APPROVAL.md).
 
-Version 2 is the newer script pasted into the conversation, with explanatory `## CHANGED` comments and the requested attribution. Its executable code is preserved. Version 1 is the earlier original script; the supplied original `.txt` and `.ps1` had identical content.
+Version 2 is the revised script supplied by Alvin Bridges on 11/12/26, with explanatory `## CHANGED` comments and the requested attribution. Its executable code is preserved. Version 1 is the earlier original script; the supplied original `.txt` and `.ps1` had identical content.
 
 ### Downloadable scripts
 
@@ -70,7 +70,7 @@ For Intune, the supplied script specifies “Run this script using the logged on
 
 ## Version 1
 
-Original script by Jim Ierely, preserved from the supplied original with no functional changes.
+Original script by Jim Ierley, preserved from the supplied original with no functional changes.
 
 - Force-stops nine named Adobe processes, without filtering by session, and waits two seconds.
 - Parses English cmdkey `Target:` lines using the Adobe regex; tries deletion with both the stripped and original target names.
