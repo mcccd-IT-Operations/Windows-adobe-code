@@ -11,8 +11,8 @@ Version 2 edited 11/12/26 @ 7:02 PM by Alvin Bridges
 
 | Version | Source / download | Status |
 | --- | --- | --- |
-| 1 | [Adobe-reset-v1.ps1](./windows-code/adobe-creative-cloud/Adobe-reset-v1.ps1) | Historical baseline; production approval not asserted |
-| 2 | [Adobe-reset-v2.ps1](./windows-code/adobe-creative-cloud/Adobe-reset-v2.ps1) | Review candidate; approval pending |
+| 1 | [Adobe-reset-v1.ps1](https://github.com/mcccd-IT-Operations/Windows-adobe-code/blob/review/windows/adobe-creative-cloud-v2/windows-code/adobe-creative-cloud/Adobe-reset-v1.ps1) | Historical baseline; production approval not asserted |
+| 2 | [Adobe-reset-v2.ps1](https://github.com/mcccd-IT-Operations/Windows-adobe-code/blob/review/windows/adobe-creative-cloud-v2/windows-code/adobe-creative-cloud/Adobe-reset-v2.ps1) | Review candidate; approval pending |
 
 The code is on [review/windows/adobe-creative-cloud-v2](https://github.com/mcccd-IT-Operations/Windows-adobe-code/tree/review/windows/adobe-creative-cloud-v2) in [draft PR #1](https://github.com/mcccd-IT-Operations/Windows-adobe-code/pull/1). If browsing main before merge, use those branch/PR links to access the candidate files.
 
@@ -20,7 +20,7 @@ Both scripts remain downloadable as assets in the [original review pre-release](
 
 ## What the files do and why
 
-The [Version 1 script](./windows-code/adobe-creative-cloud/Adobe-reset-v1.ps1) preserves the baseline for comparison. The [Version 2 script](./windows-code/adobe-creative-cloud/Adobe-reset-v2.ps1) contains the revised remediation with section notes. [Release notes](./windows-code/adobe-creative-cloud/RELEASE-NOTES.md) explain all Version 1-to-2 changes, usage and limitations. The [approval record](./windows-code/adobe-creative-cloud/APPROVAL.md) holds this project's routing, decisions, validation and authorization status.
+The [Version 1 script](https://github.com/mcccd-IT-Operations/Windows-adobe-code/blob/review/windows/adobe-creative-cloud-v2/windows-code/adobe-creative-cloud/Adobe-reset-v1.ps1) preserves the baseline for comparison. The [Version 2 script](https://github.com/mcccd-IT-Operations/Windows-adobe-code/blob/review/windows/adobe-creative-cloud-v2/windows-code/adobe-creative-cloud/Adobe-reset-v2.ps1) contains the revised remediation with section notes. [Release notes](https://github.com/mcccd-IT-Operations/Windows-adobe-code/blob/review/windows/adobe-creative-cloud-v2/windows-code/adobe-creative-cloud/RELEASE-NOTES.md) explain all Version 1-to-2 changes, usage and limitations. The [approval record](https://github.com/mcccd-IT-Operations/Windows-adobe-code/blob/review/windows/adobe-creative-cloud-v2/windows-code/adobe-creative-cloud/APPROVAL.md) holds this project's routing, decisions, validation and authorization status.
 
 Version 2 targets the affected Windows user's local Adobe sign-in state: it closes matching Adobe processes, clears matching Credential Manager targets and removes or backs up the OOBE database/SQLite sidecars and IdentityCache. Forced app closure can interrupt work; the next Adobe launch requires sign-in. Run only in the intended affected-user context, as described by the script; SYSTEM is refused. Review the parameters, side effects and limitations before authorized nonproduction testing.
 
@@ -28,6 +28,6 @@ Neither script was executed on Windows during preparation. Runtime/tenant/user e
 
 ## Project review
 
-[Project governance](./GOVERNANCE.md) identifies impacted owners; [template adoption](./GOVERNANCE-ADOPTION.md) records the central baseline. Infrastructure, Development, Business ERPs, End Point Engineering and CyberSecurity assess impact; add Identity/SailPoint, Adobe/licensing, Service Desk and other affected owners. A maintainer verifies every required approval for the final commit before merge; production authorization is separate.
+[Project governance](https://github.com/mcccd-IT-Operations/Windows-adobe-code/blob/review/windows/adobe-creative-cloud-v2/GOVERNANCE.md) identifies impacted owners; [template adoption](https://github.com/mcccd-IT-Operations/Windows-adobe-code/blob/review/windows/adobe-creative-cloud-v2/GOVERNANCE-ADOPTION.md) records the central baseline. Infrastructure, Development, Business ERPs, End Point Engineering and CyberSecurity assess impact; add Identity/SailPoint, Adobe/licensing, Service Desk and other affected owners. A maintainer verifies every required approval for the final commit before merge; production authorization is separate.
 
 Legacy governance documentation paths now point to the central framework for compatibility. Organization-wide policy changes belong in the organization repository, not as Adobe-specific policy.
